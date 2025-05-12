@@ -1,0 +1,105 @@
+
+.header.content{
+    background-color: lightskyblue;
+    height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: black;
+    display:flex;
+    justify-content:space-evenly;
+    padding: 24px;
+    text-align:center;
+}
+
+nav a{
+    color:antiquewhite;
+    text-decoration: none;   
+}
+
+nav a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 0px;
+  max-width: 1100px;    
+  margin: 0 auto; 
+}
+
+.card {
+  padding-top: 20px;
+  padding: 16px;
+  border-radius: 8px;
+  
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+
+.about-content img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.ghana-content {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+
+.ghana-content img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h1{
+  background-color: lightskyblue;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.Ghana h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;   
+}
+
+div {
+    padding-bottom: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+
+footer{
+    
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
