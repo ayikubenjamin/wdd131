@@ -1,0 +1,69 @@
+header .title{
+    background-color: lightskyblue;
+    padding: 20px;
+}
+.title {
+  
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+header nav {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 0px;
+  max-width: 1100px;    
+  margin: 0 auto; 
+}
+
+main h1{
+    background-color: lightskyblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+section .about-content{
+   display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+
+.about-content img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
