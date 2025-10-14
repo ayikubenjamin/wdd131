@@ -1,0 +1,101 @@
+h1{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0%;
+
+}
+
+.form{
+    background-color: lightgray;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 0%; 
+}
+
+fieldset {
+  border: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+.form label{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.form div{
+    padding-top: 10px;
+}
+
+.form select, .form input[type="text"] {
+    padding: 10px;
+    width: 30%;
+}
+
+.form input[type="date"]{
+    padding: 5px;
+    width: 20%;
+}
+
+.form textarea{
+    width: 32%;
+    height: 100px;
+}
+
+.form input[type="submit"]{
+    background-color: midnightblue;
+    color: white;
+    padding: 15px;
+    width: 32%;
+    font-size: large;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+.ratings {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.ratings > label {
+	color: black;
+	width: 30px;
+	height: 10px;
+	margin-left: 5px;
+    padding-bottom: 20px;
+    font-size: large;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(0, 0, 0, 0); 
+}
+
+.ratings > label:hover {
+	color: #000;
+}
+
+.ratings > label::before {
+	content: "\2606";
+}
+
+.ratings input:checked ~ label::before {
+	content: "\2605";
+}
+
+
+footer{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
