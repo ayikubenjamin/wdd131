@@ -60,6 +60,18 @@ a:hover{
   font-style: italic;
 }
 
+#bestselling{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  width: 100%;
+  padding-top: 25px;
+  font-family: 'meriweather';
+  font-size: 15px;
+  font-style: italic;
+
+}
+
 
 
 .bookcard {

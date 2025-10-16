@@ -214,6 +214,8 @@ const books = [
 
 const latest = books.filter(book => book.yearpublished === '2024' && book.category === 'Fantasy')
 
+const selling = books.filter(book => book.category === 'Romance' ||  book.category === 'Biography' ||  book.category === 'Memoir')
+
 const latestAddition = document.querySelector("#latestAddition")
 const heading = document.createElement('h3')
 heading.innerHTML = `Latest Addition`
@@ -229,5 +231,17 @@ latest.forEach(book => {
     latestAddition.appendChild(bookdiv)
     latestAddition.appendChild(heading) 
     
+})
+
+const bestselling = document.querySelector("#bestselling")
+
+selling.forEach(book => {
+  const bookdiv = document.createElement('div')
+  bookdiv.classList.add('bookcard')
+
+  bookdiv.innerHTML = `<img src="${book.bookcoverimageUrl}"><br>
+                        ${book.booktitle} - ${book.author}`
+
+  bestselling.appendChild(bookdiv)
 })
 
