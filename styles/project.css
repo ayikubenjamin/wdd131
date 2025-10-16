@@ -1,0 +1,86 @@
+header{
+    background-color: midnightblue;
+    display: grid;
+    grid-template-columns: min-content auto;
+    align-items: center;
+}
+
+nav{
+    
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'roboto' ;
+    font-size: 18px;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.quote p{
+    font-family: 'meriweather';
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding: 30px;
+}
+
+.aboutus{
+    font-family: 'roboto' ;
+    font-size: 17px;
+    text-align: center;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 15px;
+    background-color: rgb(243, 244, 245);
+}
+
+.bookscat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#latestAddition {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  width: 100%;
+  padding-top: 25px;
+  font-family: 'meriweather';
+  font-size: 15px;
+  font-style: italic;
+}
+
+
+
+.bookcard {
+  padding: 5px;
+  border-radius: 8px;
+  text-align: center;
+  width: 180px;
+   
+  
+}
+
+.bookcard img {
+  max-width: 120px;  
+  max-height: 320px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+#latestAddition h3{
+
+}
+
+
+
