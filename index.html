@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wdd131-Dynamic Web Fundamentals</title>
+    <meta name="description" content="wdd131 Dynamic Web Fundamentals landing page- Benjamin Tetteh Ayiku">
+    <meta name="author" content="Benjamin Ayiku">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/getdates.js"></script>
 </head>
 <body>
-    <h1>wdd 131 responsive web design course</h1>
-    
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/in/benjamin-ayiku-tetteh/">LinkedIn</a>
+            <a href=" https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng&id=p41#p41">Scripture</a>
+            <a href="finalproject.html">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <div class="about-me">
+                <h1>About Me</h1>
+                <div class="about-content">
+                    <p>My name is Benjamin Ayiku, I am from Ghana. I am currently studying software development, learning how to play chess and I like reading.</p>
+                    <img src="images/myself.webp" alt="Benjamin">
+                </div>
+            </div>
+            <div class="about-country">
+                <h2>Ghana, Accra</h2>
+                <div class="about-content">
+                    <img src="images/Ghanaflag.webp" alt="Ghana flag">
+                    <p>Ghana is a country located in West Africa, known for its rich history, cultural diversity, and political stability. Ghana was the first sub-Saharan African country to gain independence from colonial rule in 1957. Its capital is Accra, and the country is renowned for its gold, cocoa, and vibrant traditions, including colorful festivals, music, and dance.</p> 
+                </div>
+            </div>
+        </section>
+
+         <section class="card">
+            <h1>Web Dev Resources</h1>
+            <ul>
+                <li><a href="www.freecodecamp.com">freecodecamp</a></li>
+                <li><a href="www.w3schools.com">w3schools</a></li>
+                <li><a href="www.Udemy.com">Udemy</a></li>
+            </ul>  
+        </section>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span>🌴 Benjamin Ayiku 🌴 Ghana</p>
+        <span id="lastmodified"></span> 
+    </footer>
 </body>
 </html>
