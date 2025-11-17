@@ -1,0 +1,81 @@
+@media screen and (min-width: 750px) {
+    
+header{
+    background-color: red;
+    padding: 12px;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.hero{
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+.hero picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.data{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.weather{
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+    background-color: rgb(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;  
+}
+
+.heading{
+    background-color: yellow;
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+
+ .weather .heading h2 {
+    display: inline-flex;
+    align-items: center; 
+    gap: 0.5rem;         
+  }
+
+  .weather .heading h2::after {
+    content: "⛅";       
+    background: none;  
+    display: inline;    
+    width: auto;
+    height: auto;
+    font-size: 1.5rem;  
+    margin: 0;          
+  }
+
+
+
+
+}
