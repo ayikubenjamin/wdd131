@@ -1,0 +1,95 @@
+@media screen and (max-width: 768px) {
+ 
+  #menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2; 
+  }
+
+  
+  #menu::before {
+    content: "☰";
+  }
+
+ 
+  #menu.open::before {
+    content: "❎";
+  }
+
+ 
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #36454f;
+    padding: 0;
+    margin: 1rem 0 0 0;
+  }
+
+ 
+  nav ul.show {
+    display: flex;
+  }
+
+  nav li {
+    margin: 0;
+  }
+
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  nav a:hover {
+    background-color: #eee;
+    color: #000;
+  }
+
+  header {
+    background-color: lightblue;
+    display: grid;
+    gap: 1rem;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #temples-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    width: 100%;
+  }
+
+  .temple-card{
+        background: #f9f9f9;
+        padding: 1rem;
+        border-radius: 8px;
+        text-align: center;  
+   }
+   
+   
+   .temple-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    footer {
+        background-color: black;
+        color: antiquewhite;
+        text-align: center;
+        padding: 10px;
+    }
+}
