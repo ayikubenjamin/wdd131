@@ -11,20 +11,22 @@
     <script src="scripts/orderform.js" defer></script>
     <script src="scripts/dates.js" defer></script>
     <link rel="stylesheet" href="styles/projectlarge.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <title>Read Haven Website</title>
 </head>
 <body>
     <header>
         <img src="images/logo.webp" width="250" height="100" alt="site logo">
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
         <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="collections.html">Collections</a>
-            <a href="Order.html">Order</a>
+            <a href="order.html">Order</a>
         </nav>
     </header>
     <main>
         <h1>Order for A Book</h1>
-        <form method="get" action="review.html" class="form">
+        <form method="get" action="orderplaced.html" class="form">
             <fieldset>
                 <label>First Name<span style="color: red;">*</span><br><input type="text" name="firstname" id="customerName" required></label>
                 <label>Last Name<span style="color: red;">*</span><br><input type="text" name="lastname" id="customerName" required></label>
@@ -38,10 +40,10 @@
                             <option value="" disabled selected hidden>Select a book</option>
                     </select>
 
-                <div>Mode of Delivery</div>
+                <div>Mode of Delivery<span style="color: red;">*</span></div>
                    <label><input type="radio" name="delivery" value="shop">Pickup at the Shop</label>
-                   <label><input type="radio" name="delivery" value="doorstep">Delivered to my Doorstep</label>
-                   <label><input type="radio" name="delivery" value="online">Through Email</label>
+                   <label><input type="radio" name="delivery" value="doorstep">Delivery to my Doorstep</label>
+                   <label><input type="radio" name="delivery" value="online">Through Email(Softcopy)</label>
 
                 <label>Comments(optional)<br><textarea  name="review" id="review"></textarea></label>
             </fieldset>

@@ -147,14 +147,19 @@ fieldset {
     padding-top: 10px;
 }
 
-.form select, .form input[type="text"] {
-    padding: 10px;
-    width: 30%;
+.form input[type="text"], .form input[type="tel"], .form input[type="email"] {
+    padding: 5px;
+    width: 25%;
 }
 
-.form input[type="date"]{
+.form input[type="number"]{
     padding: 5px;
-    width: 20%;
+    width: 5%;
+}
+
+.form select{
+    padding: 6px;
+    width: 26%;
 }
 
 .form textarea{
@@ -170,13 +175,6 @@ fieldset {
     font-size: large;
     border-radius: 8px;
     margin-top: 15px;
-}
-
-
-input[type="radio"] {
-	display: none;
-	position: relative;
-	caret-color: rgba(0, 0, 0, 0);
 }
 
 .ratings {
@@ -258,6 +256,10 @@ footer{
   height: auto;
   border-radius: 8px;
 }
+
+.hamburger{
+        display: none;
+    }
 
 
 
